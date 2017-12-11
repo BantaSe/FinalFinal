@@ -1,6 +1,6 @@
 <!--
-- Password must be longer than 8 symbols
 - Password check if both fields the same
+- check if at at least 8 characters
 - No reload if password not the same, should be checked dynamically
 - Register button
 - when submitted shows that hey hey, you suceed-->
@@ -30,15 +30,16 @@
         <label>Username</label>
         <input type="text" placeholder="Username" name="username" required>
         <label>Password</label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" name="psw" pattern="{8,}" required>
         <label>Repeat Password</label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" pattern="{8,}" required>
         <label>First Name</label>
+        <p>Password must be at least 8 characters long!</p>
         <input type="Text" name="firstName" required>
         <label>Last Name</label>
         <input type="Text" name="lastName" required>
         <label>Country</label>
-        <select name="country">
+        <select name="country" required>
                 <option value="">Country...</option>
                 <option value="Afganistan">Afghanistan</option>
                 <option value="Albania">Albania</option>
@@ -288,9 +289,9 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
                 </select>
-        <input type="checkbox" checked="checked">
+        <input type="checkbox" checked="checked" required>
         <p>By creating an account you agree to our Terms & Privacy.</p>
-
+        <input type="submit" value="Submit">
 
     </form>
 </body>
