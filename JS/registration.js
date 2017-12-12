@@ -1,13 +1,11 @@
-//pasword validation
-
-var password = document.getElementById("psw"),
-    confirm_password = document.getElementById("psw-repeat");
+var inputPassword = document.getElementById("inputPassword"),
+    confirmPassword = document.getElementById("confirmPassword");
 
 function validatePassword() {
-    if (password.value != confirm_password.value) {
-        confirm_password.setCustomValidity("Passwords Don't Match");
+    if (inputPassword.value != confirmPassword.value) {
+        confirmPassword.setCustomValidity("Passwords Don't Match");
     } else {
-        confirm_password.setCustomValidity('');
+        confirmPassword.setCustomValidity('');
     }
 }
 
