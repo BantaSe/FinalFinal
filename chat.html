@@ -6,6 +6,7 @@
   <title>Chatter</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/chat.css">
 
 </head>
 <body>
@@ -34,19 +35,34 @@
       </div>
   </nav>
 
-  <div class="chatContainer">
-    <div class="chatHeader">
-      <div class="chatUsername">
-        <div class="chatMessage">
-          <button id="Send"></button>
-
-      </div>
-
+<!-- Chat window -->
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-1">
+    <h1>Chat</h1>
+    <div class="frame">
+      <ul></ul>
     </div>
+
+    <!-- Text Input -->
+    <div class="form-group">
+      <label for="">Username</label>
+      <input type="text" class="chatUsername form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="">Chat message</label>
+      <textarea class="chatMessage form-control" rows="8" cols="80"></textarea>
+    </div>
+
+    <button class="btn btn-default" id="Send">Send</button>
   </div>
+</div>
+
+
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="JS/chat.js"></script>
 </body>
 </html>
