@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+<!--header and navigation bar-->
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="index.html"><img id="logo" src="https://media.giphy.com/media/l0IymVgwCzukhGg24/giphy.gif" height="30"></a>
+              <a class="navbar-brand" href="#">Mūsu kaķi</a>
+
+          </div>
+          <ul class="nav navbar-nav navbar-right" >
+
+              <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="articles_page.html">Articles
+                <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="articles_page.html">All articles</a></li>
+                      <li><a href="article_open.html">Jaunākā ziņa</a></li>
+                  </ul>
+              </li>
+              <li><a href="chat.html">Chat</a></li>
+              <li><a href="registration.html">Register</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+          </ul>
+      </div>
+  </nav>
+
+  <div>
+    About us
+  </div>
+
+  <div>
+    Contacts
+
+
+    <div class="row">
+      <div class="col-md-6">
+        <div id="map" style="width:400px;height:400px"></div>
+      </div>
+      <div class="col-md-6">
+          <h1>Addres:</h1>
+          <p>Kaķakalna iela 11, Rīga LV-1050, Latvia</p>
+          <h2>Email:</h2>
+          <p>info@musukaki.com</p>
+          <h3>Phone:</h3>
+          <p>+371 211222233</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="JS/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARt1grq2eHmekuQA2SveqSiVn9NaEZtdA&callback=initMap"
+  type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
