@@ -43,7 +43,7 @@
 .frame > div:last-of-type{
     position:absolute;bottom:5px;width:100%;display:flex;
 }
-ul {
+.frame ul {
     width:100%;
     list-style-type: none;
     padding:18px;
