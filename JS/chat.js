@@ -53,7 +53,7 @@ function insertChat(who, text, time = 0){
 }
 
 function resetChat(){
-    $("ul").empty();
+    $("ul", ".frame").empty();
 }
 
 
