@@ -5,20 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mūsu kaķi</title>
-    <link rel="style" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
 </head>
 
 <body>
     <!-- navigation bar -->
-    <img id="logo" src="https://media.giphy.com/media/l0IymVgwCzukhGg24/giphy.gif" alt="Logo" height="80">
-    <nav>
-        <ul id="nav_container">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="articles_page.html">Articles</a></li>
-            <li><a href="chat.html">Chat</a></li>
-            <li><a href="registration.html">Register</a></li>
-            <li><a href="about_us.html">About Us</a></li>
-        </ul>
+    <!--img id="logo" src="https://media.giphy.com/media/l0IymVgwCzukhGg24/giphy.gif" alt="Logo" height="80"-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="https://media.giphy.com/media/l0IymVgwCzukhGg24/giphy.gif" height="30"></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="articles_page.html">Articles
+                  <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="article_open.html">Jaunākā ziņa</a></li>
+                    </ul>
+                </li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </div>
     </nav>
     <!--carousel-->
     <section>
@@ -28,13 +40,21 @@
 
     </section>
     <!--Here we need to add Article thumbails that are generated from article image resized to 100X100 and header text-->
-    <footer>
-        <p>(c)Davis & Santa Enterprise LTD </p>
-        <p><a href="rpp@riga.lv">rpp@riga.lv</a>.</p>
 
+    <!--Footer-->
+    <footer class="footer">
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copycat D&S LTD Enterprice Limited
+            </div>
+        </div>
     </footer>
+
 
 </body>
 <script src="JS/carousel.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>
