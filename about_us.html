@@ -35,21 +35,47 @@
   </nav>
 
   <div>
-    About us
+
+    <div class="row">
+      <h1>About us</h1>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, autem! Suscipit eaque, atque. Quaerat alias sed possimus, laborum tenetur unde ad similique voluptate iste quasi vero et quibusdam, reiciendis veniam.
+          </div>
+          <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">...</div>
+        <div role="tabpanel" class="tab-pane" id="messages">...</div>
+        <div role="tabpanel" class="tab-pane" id="settings">...</div>
+      </div>
+    </div>
+
+
+
   </div>
 
   <div>
-    Contacts
-
 
     <div class="row">
+      <h1>Contacts</h1>
       <div class="col-md-6">
         <div id="map" style="width:400px;height:400px"></div>
       </div>
       <div class="col-md-6">
-          <h1>Addres:</h1>
+          <h3>Addres:</h3>
           <p>Kaķakalna iela 11, Rīga LV-1050, Latvia</p>
-          <h2>Email:</h2>
+          <h3>Email:</h3>
           <p>info@musukaki.com</p>
           <h3>Phone:</h3>
           <p>+371 211222233</p>
