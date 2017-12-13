@@ -1,125 +1,122 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="stylesheet" href="CSS/footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catstagram</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/footer.css">
 
 </head>
 
 <body>
-<!--header and navigation bar-->
-  <nav class="navbar navbar-default">
-      <div class="container-fluid">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"><img id="logo" src="https://media.giphy.com/media/l0IymVgwCzukhGg24/giphy.gif" height="30"></a>
-              <a class="navbar-brand" href="#">Mūsu kaķi</a>
-
-          </div>
-          <ul class="nav navbar-nav navbar-right" >
-
-              <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="articles_page.html">Articles
-                <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                      <li><a href="articles_page.html">All articles</a></li>
-                      <li><a href="article_open.html">Jaunākā ziņa</a></li>
-                  </ul>
-              </li>
-              <li><a href="chat.html">Chat</a></li>
-              <li><a href="registration.html">Register</a></li>
-              <li><a href="about_us.html">About Us</a></li>
-          </ul>
-      </div>
-  </nav>
-
-  <div>
-
-    <div class="row">
-      <h1>About us</h1>
-
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-      </ul>
-
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="home">
-            <div class="col-md-6"><img src="https://static.pexels.com/photos/416160/pexels-photo-416160.jpeg" height="200" />
+    <div class="content">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img id="logo" src="images/brandlogo.gif" height="30"></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="articles_page.html">Articles
+                  <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="articles_page.html">All cat articles</a></li>
+                            <li><a href="article_open.html">Breaking: cats rule the world</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="chat.html">Chat</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                </ul>
             </div>
-            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+        </nav>
+        <div class="body">
+
+            <div>
+
+                <div class="row">
+                    <h1>About us</h1>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <div class="col-md-6"><img src="https://static.pexels.com/photos/416160/pexels-photo-416160.jpeg" height="200" />
+                            </div>
+                            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            <div class="col-md-6"><img src="https://static.pexels.com/photos/315582/pexels-photo-315582.jpeg" height="200" />
+                            </div>
+                            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            <div class="col-md-6"><img src="https://static.pexels.com/photos/209037/pexels-photo-209037.jpeg" height="200" />
+                            </div>
+                            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="settings">
+                            <div class="col-md-6"><img src="https://static.pexels.com/photos/248280/pexels-photo-248280.jpeg" height="200" />
+                            </div>
+                            <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+            </div>
+
+
+            <div>
+
+                <div>
+
+                    <div class="row">
+                        <h1>Contacts</h1>
+                        <div class="col-md-6">
+                            <div id="map" style="width:400px;height:400px"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Address:</h3>
+                            <p>Kaķakalna iela 11, Rīga LV-1050, Latvia</p>
+                            <h3>Email:</h3>
+                            <a href="mailto:riga@riga.lv" target="_top">riga@riga.lv</a>
+                            <h3>Phone:</h3>
+                            <p>+371 211222233</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="profile">
-          <div class="col-md-6"><img src="https://static.pexels.com/photos/315582/pexels-photo-315582.jpeg" height="200" />
-          </div>
-          <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
-          </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="messages">
-          <div class="col-md-6"><img src="https://static.pexels.com/photos/209037/pexels-photo-209037.jpeg" height="200" />
-          </div>
-          <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
-          </div>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="settings">
-          <div class="col-md-6"><img src="https://static.pexels.com/photos/248280/pexels-photo-248280.jpeg" height="200" />
-          </div>
-          <div class="col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem accusamus alias fuga labore, ratione atque vero, impedit consequatur totam, inventore possimus. Ipsam, minus molestiae dolor, veritatis dolore quos ex dicta.
-          </div>
-        </div>
-      </div>
+        <footer class="footer">
+            <div class="footer-copyright">
+                <div class="container-fluid">
+                    © 2017 Copycat D&amp;S LTD Enterprice Limited
+                </div>
+            </div>
+        </footer>
+
     </div>
-  <hr />
-</div>
 
 
-  <div>
 
-        <hr>
-
-        <div>
-
-            <div class="row">
-                <h1>Contacts</h1>
-                <div class="col-md-6">
-                    <div id="map" style="width:400px;height:400px"></div>
-                </div>
-                <div class="col-md-6">
-                    <h3>Address:</h3>
-                    <p>Kaķakalna iela 11, Rīga LV-1050, Latvia</p>
-                    <h3>Email:</h3>
-                    <a href="mailto:riga@riga.lv" target="_top">riga@riga.lv</a>
-                    <h3>Phone:</h3>
-                    <p>+371 211222233</p>
-                </div>
-            </div>
-        </div>
-
-  <!-- footer -->
-  <div class="content">
-    <footer class="footer">
-      <div class="footer-copyright">
-        <div class="container-fluid">
-          © 2017 Copycat D&amp;S LTD Enterprice Limited
-        </div>
-      </div>
-    </footer>
-  </div>
-
-
-  <script src="JS/map.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARt1grq2eHmekuQA2SveqSiVn9NaEZtdA&callback=initMap" type="text/javascript"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+<script src="JS/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARt1grq2eHmekuQA2SveqSiVn9NaEZtdA&callback=initMap" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>

@@ -8189,3 +8189,7 @@ label {
     display: inline-block;
     margin-bottom: 20px
 }
+
+.body {
+    flex-grow: 1;
+}
