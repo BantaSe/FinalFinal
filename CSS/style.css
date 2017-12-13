@@ -8176,4 +8176,16 @@ label {
     border-color: #dddddd;
 }
 
-cf
+.img-fluid {
+    width: 100%;
+    height: auto
+}
+
+.gallery {
+    margin-top: 100px
+}
+
+.gallery a {
+    display: inline-block;
+    margin-bottom: 20px
+}
